@@ -1,0 +1,12 @@
+Optimisation
+    - Structure HTML
+        - h1-h2-h3
+        - header main section nav etc
+    - Améliorer script
+        - différer diffusion feuille JS non essentielles
+        - réduire taille
+    - Images
+        - conversion img en Webp
+        - redimensionner des images
+        - taille width et height explicite
+    - CSS à réduire
