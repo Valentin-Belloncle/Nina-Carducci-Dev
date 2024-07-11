@@ -74,16 +74,17 @@ body {
 #about-me {
 	flex: 2
 }
-.about-me__title {
+div .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 60px;
 	font-size: 30px;
 }
-.about-me__introduction {
+div .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 #about-me p {
 	width: 80%;
@@ -93,7 +94,7 @@ body {
 #gallery {
 	/*	min-height: 100vh; */
 }
-.title{
+div .title{
 	text-align: center;
 	padding-block: 2em;
 }
@@ -147,6 +148,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
+	font-size: 2em;
 
 }
 .quote__author {
@@ -242,6 +244,25 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+footer {
+	background-color: #F6D2B8;
+}
+
+.contact {
+	padding-left: 20px;
+	background-color: #E5975F;
+	width: 50%;
+}
+
+.contact h2 {
+	font-size: 20px !important
+}
+
+.contactInfo {
+	margin-left: 10px;	
+	font-size: 12px;
 }
 
 @media all and (max-width: 1180px) {
