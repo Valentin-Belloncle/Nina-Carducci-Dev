@@ -246,25 +246,6 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
-footer {
-	background-color: #F6D2B8;
-}
-
-.contact {
-	padding-left: 20px;
-	background-color: #E5975F;
-	width: 50%;
-}
-
-.contact h2 {
-	font-size: 20px !important
-}
-
-.contactInfo {
-	margin-left: 10px;	
-	font-size: 12px;
-}
-
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
